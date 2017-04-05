@@ -1,0 +1,95 @@
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "trebuchet ms", arial, sans-serif;
+}
+#hdr {
+  border-bottom: 1px solid red;
+  background: #ffffff;
+  /*position: fixed;*/
+  top: 0;
+  width: 100%;
+}
+h1{
+  color: #FFA509;
+}
+
+.logo img {
+ float: left;
+ width: 100px;
+ height: 100px;
+ background: #555;
+}
+
+.logo h1 {
+ position: relative;
+ top: 18px;
+ left: 10px;
+
+}
+address {
+  margin: 0%;
+  text-align:right;
+  padding: 0%;
+}
+article p::first-letter {
+  font-size: 2rem;
+}
+nav {
+  margin-left: 20px;
+}
+nav a{
+  margin: 0 25px;
+  font-size: 2rem;
+  font-family: cursive;
+  font-weight: bold;
+  color: 	#4B0082;
+}
+}
+/* this style of lesssons*/
+.lesson-cntr .top{
+width: 100%;
+display: block;
+margin-top: 0rem;
+height: 380px;
+clear: both;
+}
+
+.lesson-cntr .top div{
+  display: inline-block;
+  width: 650px;
+  height: 360px;
+  background-image: url(../images/students-competing.jpg);
+
+}
+.lesson-cntr .top div:first-child{
+  background-image: url(../images/class2.jpg);
+  background-size:cover;
+
+}
+h2{
+  text-align: center;
+  font-style: oblique;
+  font-family: serif;
+  text-decoration: underline;
+}
+aside{
+  font-size: 12px;
+  color: grey;
+  border-top: 1px solid darkgrey;
+}
+
+footer {
+
+position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: grey;
+  text-align: center;
+
+
+}
